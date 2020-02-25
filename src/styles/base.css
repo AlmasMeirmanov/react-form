@@ -28,28 +28,59 @@ code {
 .box {
   margin: auto;
   width: 575px;
-  background-color: grey;
+  background-color: rgb(59, 59, 59);
 }
 .box input {
   font-size: 15px;
-
   width: 500px;
   height: 35px;
+  background-color: rgb(59, 59, 59);
 }
+
 label {
   font-size: 25px;
   color: white;
 }
 header {
-  font-size: 40px;
-  padding-left: 10px;
+  font-size: 30px;
+  padding-left: 20px;
   color: white;
+  padding-top: 10px;
 }
 form {
-  padding-left: 10px;
+  padding-left: 20px;
 }
 .wrapper {
   text-align: center;
   background-color: grey;
   margin: auto;
+}
+.name {
+  margin-bottom: 15px;
+  margin-top: 20px;
+}
+.email {
+  margin-bottom: 15px;
+}
+.username {
+  margin-bottom: 15px;
+}
+.password {
+  margin-bottom: 15px;
+}
+.cpassword {
+  margin-bottom: 15px;
+}
+.url {
+  margin-bottom: 15px;
+}
+button {
+  font-size: 20px;
+  border: 1px solid white;
+  margin-left: 191px;
+  background-color: rgb(59, 59, 59);
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: white;
 }

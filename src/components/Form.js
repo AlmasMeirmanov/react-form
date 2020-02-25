@@ -66,7 +66,7 @@ export default props => {
     <div className="box">
       <header>Profile Form - All fields required</header>
       <form onSubmit={checkSubmit}>
-        <div>
+        <div className="name">
           <label className={fullnameError ? "error" : ""} htmlFor="fullname">
             Name {fullnameError && fullnameError}
           </label>
@@ -79,7 +79,7 @@ export default props => {
             onChange={e => setFullname(e.target.value)}
           ></input>
         </div>
-        <div>
+        <div className="email">
           <label className={emailError ? "error" : ""} htmlFor="email">
             Email {emailError && emailError}
           </label>
@@ -92,7 +92,7 @@ export default props => {
             onChange={e => setEmail(e.target.value)}
           ></input>
         </div>
-        <div>
+        <div className="username">
           <label className={usernameError ? "error" : ""} htmlFor="username">
             Username {usernameError && usernameError}
           </label>
@@ -105,7 +105,7 @@ export default props => {
             onChange={e => setUsername(e.target.value)}
           ></input>
         </div>
-        <div>
+        <div className="password">
           <label className={passwordError ? "error" : ""} htmlFor="pwd">
             Password {passwordError && passwordError}
           </label>
@@ -118,7 +118,7 @@ export default props => {
             onChange={e => setPassword(e.target.value)}
           ></input>
         </div>
-        <div>
+        <div className="cpassword">
           <label
             className={confirmpasswordError ? "error" : ""}
             htmlFor="confirmpassword"
@@ -134,7 +134,7 @@ export default props => {
             onChange={e => setConfirmpassword(e.target.value)}
           ></input>
         </div>
-        <div>
+        <div className="url">
           <label className={urlError ? "error" : ""} htmlFor="url">
             Url{urlError && urlError}
           </label>
